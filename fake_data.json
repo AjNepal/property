@@ -1,0 +1,763 @@
+[
+  {
+    "_id": "1",
+    "owner": "1",
+    "name": "Kathmandu Haven",
+    "type": "Apartment",
+    "description": "A cozy apartment in the heart of Kathmandu with stunning city views. Ideal for both short and long stays.",
+    "location": {
+      "street": "Thamel",
+      "city": "Kathmandu",
+      "state": "Bagmati",
+      "zipcode": "44600"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1200,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Elevator Access",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV"
+    ],
+    "rates": {
+      "weekly": 1000,
+      "monthly": 3800
+    },
+    "seller_info": {
+      "name": "Suman Shrestha",
+      "email": "suman@example.com",
+      "phone": "9801234567"
+    },
+    "images": ["c1.jpg", "c2.jpg", "c3.jpg", "c4.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-22",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "2",
+    "owner": "2",
+    "name": "Pokhara Lakeview",
+    "type": "Villa",
+    "description": "Luxurious villa with breathtaking views of Phewa Lake. Perfect for a serene getaway.",
+    "location": {
+      "street": "Lakeside",
+      "city": "Pokhara",
+      "state": "Gandaki",
+      "zipcode": "33700"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 2000,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Elevator Access",
+      "Dishwasher",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker",
+      "Swimming Pool"
+    ],
+    "rates": {
+      "weekly": 2000,
+      "monthly": 7500
+    },
+    "seller_info": {
+      "name": "Anita Gurung",
+      "email": "anita@example.com",
+      "phone": "9801234568"
+    },
+    "images": ["e2.jpg", "e2.jpg", "e3.jpg", "e4.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-05-11",
+    "updatedAt": "2024-05-20"
+  },
+  {
+    "_id": "3",
+    "owner": "3",
+    "name": "Lalitpur Serenity",
+    "type": "Condo",
+    "description": "Modern condo in the historic city of Lalitpur, close to Patan Durbar Square.",
+    "location": {
+      "street": "Pulchowk",
+      "city": "Lalitpur",
+      "state": "Bagmati",
+      "zipcode": "44700"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 900,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Elevator Access",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 800,
+      "monthly": 3000
+    },
+    "seller_info": {
+      "name": "Bibek Maharjan",
+      "email": "bibek@example.com",
+      "phone": "9801234569"
+    },
+    "images": ["f1.jpg", "f2.jpg", "f3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-05-23",
+    "updatedAt": "2024-06-15"
+  },
+  {
+    "_id": "4",
+    "owner": "4",
+    "name": "Bhaktapur Heritage",
+    "type": "Guesthouse",
+    "description": "Traditional guesthouse in Bhaktapur with a blend of modern amenities and historical charm.",
+    "location": {
+      "street": "Durbar Square",
+      "city": "Bhaktapur",
+      "state": "Bagmati",
+      "zipcode": "44800"
+    },
+    "beds": 4,
+    "baths": 2,
+    "square_feet": 1800,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1500,
+      "monthly": 5000
+    },
+    "seller_info": {
+      "name": "Sita Maharjan",
+      "email": "sita@example.com",
+      "phone": "9801234570"
+    },
+    "images": ["b1.jpg", "b2.jpg", "b3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "5",
+    "owner": "5",
+    "name": "Chitwan Jungle Lodge",
+    "type": "Lodge",
+    "description": "Experience the wilderness at Chitwan Jungle Lodge, perfect for wildlife enthusiasts.",
+    "location": {
+      "street": "Sauraha",
+      "city": "Chitwan",
+      "state": "Bagmati",
+      "zipcode": "44200"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1400,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 900,
+      "monthly": 3400
+    },
+    "seller_info": {
+      "name": "Rajesh Adhikari",
+      "email": "rajesh@example.com",
+      "phone": "9801234571"
+    },
+    "images": ["g1.jpg", "g2.jpg", "g3.jpg", "g4.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "6",
+    "owner": "6",
+    "name": "Dharan Riverside",
+    "type": "Cottage",
+    "description": "Charming riverside cottage in Dharan, ideal for a peaceful retreat.",
+    "location": {
+      "street": "Bijayapur",
+      "city": "Dharan",
+      "state": "Province No. 1",
+      "zipcode": "56700"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 1100,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 700,
+      "monthly": 2600
+    },
+    "seller_info": {
+      "name": "Sunita Rai",
+      "email": "sunita@example.com",
+      "phone": "9801234572"
+    },
+    "images": ["h1.jpg", "h2.jpg", "h3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "7",
+    "owner": "7",
+    "name": "Hetauda Hills",
+    "type": "Apartment",
+    "description": "Modern apartment in Hetauda with scenic hill views, perfect for families.",
+    "location": {
+      "street": "Makwanpur",
+      "city": "Hetauda",
+      "state": "Bagmati",
+      "zipcode": "44100"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1700,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1300,
+      "monthly": 4800
+    },
+    "seller_info": {
+      "name": "Ramesh Shrestha",
+      "email": "ramesh@example.com",
+      "phone": "9801234573"
+    },
+    "images": ["i1.jpg", "i2.jpg", "i3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "8",
+    "owner": "8",
+    "name": "Butwal Residence",
+    "type": "House",
+    "description": "Spacious house in Butwal with all modern amenities. Suitable for large groups or families.",
+    "location": {
+      "street": "Devinagar",
+      "city": "Butwal",
+      "state": "Lumbini",
+      "zipcode": "32907"
+    },
+    "beds": 4,
+    "baths": 3,
+    "square_feet": 2100,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1600,
+      "monthly": 6000
+    },
+    "seller_info": {
+      "name": "Mina Thapa",
+      "email": "mina@example.com",
+      "phone": "9801234574"
+    },
+    "images": ["j1.jpg", "j2.jpg", "j3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "9",
+    "owner": "9",
+    "name": "Janakpur Comfort",
+    "type": "Guesthouse",
+    "description": "Comfortable guesthouse in Janakpur, close to all major attractions.",
+    "location": {
+      "street": "Janaki Temple Road",
+      "city": "Janakpur",
+      "state": "Province No. 2",
+      "zipcode": "45600"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1300,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 950,
+      "monthly": 3500
+    },
+    "seller_info": {
+      "name": "Aarav Shah",
+      "email": "aarav@example.com",
+      "phone": "9801234575"
+    },
+    "images": ["a1.jpg", "a2.jpg", "a3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "10",
+    "owner": "10",
+    "name": "Biratnagar Elegance",
+    "type": "Villa",
+    "description": "Elegant villa in Biratnagar with a private garden and pool.",
+    "location": {
+      "street": "Main Road",
+      "city": "Biratnagar",
+      "state": "Province No. 1",
+      "zipcode": "56600"
+    },
+    "beds": 5,
+    "baths": 3,
+    "square_feet": 2500,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Elevator Access",
+      "Dishwasher",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker",
+      "Swimming Pool"
+    ],
+    "rates": {
+      "weekly": 2500,
+      "monthly": 9000
+    },
+    "seller_info": {
+      "name": "Nisha Karki",
+      "email": "nisha@example.com",
+      "phone": "9801234576"
+    },
+    "images": ["b1.jpg", "b2.jpg", "b3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "11",
+    "owner": "11",
+    "name": "Birgunj Oasis",
+    "type": "Apartment",
+    "description": "Modern apartment in Birgunj with all the amenities for a comfortable stay.",
+    "location": {
+      "street": "Adarsh Nagar",
+      "city": "Birgunj",
+      "state": "Province No. 2",
+      "zipcode": "44300"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1000,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Elevator Access",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1100,
+      "monthly": 4200
+    },
+    "seller_info": {
+      "name": "Kiran Yadav",
+      "email": "kiran@example.com",
+      "phone": "9801234577"
+    },
+    "images": ["c1.jpg", "c2.jpg", "c3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "12",
+    "owner": "12",
+    "name": "Dhangadhi Retreat",
+    "type": "House",
+    "description": "A peaceful retreat in Dhangadhi with all modern comforts.",
+    "location": {
+      "street": "Campus Road",
+      "city": "Dhangadhi",
+      "state": "Sudurpashchim",
+      "zipcode": "10900"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1800,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1200,
+      "monthly": 4500
+    },
+    "seller_info": {
+      "name": "Pooja Bhatta",
+      "email": "pooja@example.com",
+      "phone": "9801234578"
+    },
+    "images": ["d1.jpg", "d2.jpg", "d3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "13",
+    "owner": "13",
+    "name": "Itahari Central",
+    "type": "Apartment",
+    "description": "A centrally located apartment in Itahari, perfect for business travelers.",
+    "location": {
+      "street": "New Road",
+      "city": "Itahari",
+      "state": "Province No. 1",
+      "zipcode": "56705"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1300,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Elevator Access",
+      "Gym/Fitness Center",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1000,
+      "monthly": 3900
+    },
+    "seller_info": {
+      "name": "Amit Shrestha",
+      "email": "amit@example.com",
+      "phone": "9801234579"
+    },
+    "images": ["i1.jpg", "i2.jpg", "i3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "14",
+    "owner": "14",
+    "name": "Nepalgunj Comfort",
+    "type": "Guesthouse",
+    "description": "Comfortable guesthouse in Nepalgunj with all modern amenities.",
+    "location": {
+      "street": "Airport Road",
+      "city": "Nepalgunj",
+      "state": "Lumbini",
+      "zipcode": "21900"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1200,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 900,
+      "monthly": 3500
+    },
+    "seller_info": {
+      "name": "Manoj Thapa",
+      "email": "manoj@example.com",
+      "phone": "9801234580"
+    },
+    "images": ["j1.jpg", "j2.jpg", "j3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "15",
+    "owner": "15",
+    "name": "Bharatpur Riverside",
+    "type": "Lodge",
+    "description": "Lodge in Bharatpur with easy access to the river, ideal for nature lovers.",
+    "location": {
+      "street": "Narayangadh",
+      "city": "Bharatpur",
+      "state": "Bagmati",
+      "zipcode": "44200"
+    },
+    "beds": 2,
+    "baths": 1,
+    "square_feet": 1400,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1000,
+      "monthly": 3800
+    },
+    "seller_info": {
+      "name": "Bikash Shrestha",
+      "email": "bikash@example.com",
+      "phone": "9801234581"
+    },
+    "images": ["i1.jpg", "i2.jpg", "i3.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "16",
+    "owner": "16",
+    "name": "Tansen Heritage",
+    "type": "Guesthouse",
+    "description": "Traditional guesthouse in Tansen with historical charm and modern amenities.",
+    "location": {
+      "street": "Bhagwati Tole",
+      "city": "Tansen",
+      "state": "Lumbini",
+      "zipcode": "32500"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1500,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1100,
+      "monthly": 4000
+    },
+    "seller_info": {
+      "name": "Sarita Shrestha",
+      "email": "sarita@example.com",
+      "phone": "9801234582"
+    },
+    "images": ["h1.jpg", "h2.jpg", "h3.jpg"],
+    "is_featured": true,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "17",
+    "owner": "17",
+    "name": "Gorkha Retreat",
+    "type": "Cottage",
+    "description": "Peaceful cottage in Gorkha, ideal for a relaxing stay.",
+    "location": {
+      "street": "Gorkha Bazaar",
+      "city": "Gorkha",
+      "state": "Gandaki",
+      "zipcode": "34000"
+    },
+    "beds": 1,
+    "baths": 1,
+    "square_feet": 1100,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 800,
+      "monthly": 3000
+    },
+    "seller_info": {
+      "name": "Sagar Gurung",
+      "email": "sagar@example.com",
+      "phone": "9801234583"
+    },
+    "images": ["g1.jpg", "g2.jpg", "g3.jpg", "g4.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  },
+  {
+    "_id": "18",
+    "owner": "18",
+    "name": "Kirtipur Heights",
+    "type": "House",
+    "description": "Modern house in Kirtipur with all the amenities for a comfortable stay.",
+    "location": {
+      "street": "Panga",
+      "city": "Kirtipur",
+      "state": "Bagmati",
+      "zipcode": "44618"
+    },
+    "beds": 3,
+    "baths": 2,
+    "square_feet": 1600,
+    "amenities": [
+      "Wifi",
+      "Full kitchen",
+      "Washer & Dryer",
+      "Free Parking",
+      "Hot Tub",
+      "24/7 Security",
+      "Wheelchair Accessible",
+      "Air Conditioning",
+      "Balcony/Patio",
+      "Smart TV",
+      "Coffee Maker"
+    ],
+    "rates": {
+      "weekly": 1200,
+      "monthly": 4600
+    },
+    "seller_info": {
+      "name": "Kamal Maharjan",
+      "email": "kamal@example.com",
+      "phone": "9801234584"
+    },
+    "images": ["a1.jpg", "a2.jpg", "a3.jpg", "a4.jpg"],
+    "is_featured": false,
+    "createdAt": "2024-06-29",
+    "updatedAt": "2024-06-29"
+  }
+]
